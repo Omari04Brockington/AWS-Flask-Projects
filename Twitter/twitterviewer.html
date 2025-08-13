@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/twitter.css" />
+        <title>Lounge Account</title>
+    </head>
+    <body>
+        <script src="/static/twitter.js"></script>
+        <h1>Hello {{ username }}</h1>
+
+        <div id="ProfilePic"></div>
+        <script> view_profile_pic(); </script>
+
+
+
+        <button onclick="feed();">Home!</button></br>
+
+        <script> show_tweet(); </script>
+
+        <div id="divResults"></div>
+
+
+
+    </body>
+</html>
