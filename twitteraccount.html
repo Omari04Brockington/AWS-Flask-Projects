@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/twitter.css" />
+        <title>Lounge Account</title>
+    </head>
+    <body>
+        <script src="/static/twitter.js"></script>
+        <h1>Hello {{ username }}</h1>
+
+        <div id="ProfilePic"></div>
+        <script> show_profile_pic(); </script>
+
+        <input type="file" id="image"><button onclick="upload_profile_pic();">Upload Profile Picture!</button></br>
+
+
+        <button onclick="feed();">Home!</button></br>
+        </br><a href="/twitterlogout.html">logout</a>
+
+        <div>
+            Tweet: <br/><textarea id="tweet" name="tweet" rows="4" cols="50"></textarea>
+        <div>
+        </br><button onclick="tweet();">Tweet!</button>
+
+        <script> edit_tweets(); </script>
+        <div id="divResults"></div>
+
+
+
+    </body>
+</html>
