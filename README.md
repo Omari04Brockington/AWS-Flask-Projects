@@ -1,1 +1,1 @@
-This repository contains code for different projects that implement Flask and AWS.
+This repository contains code for different web applications that implement Flask and AWS.
